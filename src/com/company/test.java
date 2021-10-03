@@ -2,14 +2,13 @@ package com.company;
 
 public class test {
     public static void main(String[] args) {
-        System.out.println(factorial(5));
+        System.out.println(factorial(6));
 
     }
     static long factorial(int n){
 
-        if (n == 1){
-            return 1;
-        }if (n == 0){
+
+        if (n == 0){
             return 1;
         }
 
